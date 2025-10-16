@@ -39,8 +39,10 @@ No funcionales:
     
 
 ## 3. Diseño
-Añadir aquí lo relacionado con el diseño y técnicas descriptivas que fuimos creando
+Esquema de diseño básico de acceso y proceso de aprendizaje del alumno.
 
+
+![Alt text](./diagrama1.png)
 
 ## 4. Implementación
 Añade aquí aunque no tenga que ver con el proyecto, los ejercicios donde tuviste que corregir el código "feo"
