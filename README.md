@@ -46,7 +46,7 @@ Esquema de diseño básico de acceso y proceso de aprendizaje del alumno.
 
 ## 4. Implementación
 Añade aquí aunque no tenga que ver con el proyecto, los ejercicios donde tuviste que corregir el código "feo"
-```
+```java
 **
 * Clase Operaciones matematicas
 *
@@ -56,26 +56,26 @@ Añade aquí aunque no tenga que ver con el proyecto, los ejercicios donde tuvis
 * @version 1.0
 */
 public class Calculadora {
-// Este método suma dos números
-public int sumar(int x, int y){
-return x+y;
-}
-// Este método resta dos números
-public int restar(int x, int y){
-return x-y;
-}
-// Este método multiplica dos números
-public int multiplicar(int x, int y){
-return x*y;
-}
-// Este método divide dos números
-public int dividir(int x, int y){
-return x/y;
-}
-public static void main(String[] args){
-Calculadora c=new Calculadora();
-System.out.println("resultado: "+c.sumar(5,3));
-}
+    // Este método suma dos números
+    public int sumar(int x, int y){
+        return x+y;
+    }
+    // Este método resta dos números
+    public int restar(int x, int y){
+        return x-y;
+    }
+    // Este método multiplica dos números
+    public int multiplicar(int x, int y){
+        return x*y;
+    }
+    // Este método divide dos números
+    public int dividir(int x, int y){
+        return x/y;
+    }
+    public static void main(String[] args){
+        Calculadora c=new Calculadora();
+        System.out.println("resultado: "+c.sumar(5,3));
+    }
 }
 ```
 
